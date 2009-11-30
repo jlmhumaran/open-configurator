@@ -1,0 +1,493 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+body {
+
+        /*background-color:white;*/
+
+	background: #764036 url(images/back_all.gif);
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+#main1
+{
+width: 820px;
+margin: 0 auto;
+border-left: 30px;
+border-right: 30px;
+}
+
+#content
+{
+
+	width: 800px;
+	text-align: left;
+	border-left: 10px ;
+	border-right: 10px;
+}
+
+#back
+{
+
+width: 800px;
+}
+
+#header {
+	height: 80px;
+	text-align: left;
+	
+			
+}
+
+#menu
+{
+width: 696px;
+height: 57px;
+padding-left: 104px;
+border-top: 10px;
+background: url(images/menu.gif) no-repeat center;
+}
+
+#menu ul {
+	list-style: none;	
+}
+
+#menu li {
+	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 117px;
+	height: 37px;
+	padding-top: 20px;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#menu a:hover {
+	width: 117px;
+    height: 37px;
+	
+	text-decoration: underline;
+	background: url(images/menu_r.gif) repeat-x;
+}
+
+
+#logo {
+width: 770px;
+height: 120px;
+text-align:  left;
+text-indent: 5%;
+padding-right: 30px;
+padding-top: 30px;
+}
+
+/* Company Name */
+#logo h1{
+	text-decoration: none;
+	font-style: italic;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+/* Company Slogan */
+#logo h2
+{
+font-size: 18px;
+}
+
+
+#main
+{
+
+}
+
+#left
+{
+	width: 220px;
+	margin-left: 20px;
+}
+
+#left H3
+{
+width: 195px;
+height: 32px;
+font-size: 14px;
+font-weight: bold;
+padding-left: 25px;
+padding-top: 15px;
+text-transform: uppercase;
+color: #ffffff;
+background: url(images/title.gif) no-repeat;
+}
+
+#left H4
+{
+padding-left: 20px;
+color: #ffffff;
+font-size: 11px;
+}
+
+#left p
+{
+font-size: 11px;
+padding: 10px;
+}
+
+#left ul {
+	list-style: none;
+	
+}
+
+
+
+#left li ul {
+	border: 0px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+#left li li {
+	padding: 4px 20px;
+        background: url(images/small.gif) no-repeat left;
+}
+
+#left a {
+	color: #000000;
+}
+#left a:visited {
+	color: #000000;
+}
+
+
+#right
+{
+float: right;
+width: 500px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-right: 10px;
+background: #2B60DE;
+padding: 10px;
+border: 1px solid #ffffff
+}
+
+#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #FFE0C1;
+}
+
+
+#right a
+{
+color: #FFE0C1;
+text-decoration: none;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #FFE0C1;
+	}
+	
+	#right H4
+{
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	color: #FFE0C1;
+}
+.date {
+	text-align: right;
+	color: #FFE0C1;
+	font-size: 11px;
+}
+
+.date a {
+	color: #FFE0C1;
+}
+
+
+
+#footer {
+	clear: both;
+	padding-top: 40px;
+	background: #ffffff url(images/top.gif) repeat-x;
+    height: 50px;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #595959;
+
+}
+
+#footer a {
+	color: #595959;
+}
+.m1  {
+	background: url(images/title_back.gif) no-repeat;
+	padding-top: 20px;
+}
+
+.class
+{
+    font-weight: bold;
+    font-size: 200%;
+    text-indent: 25px;
+}
+
+.family
+{
+    font-size: 150%;
+    text-indent: 50px;
+}
+
+.component
+{
+    font-size: 125%;
+    text-indent: 75px;
+}
+.dependability
+{
+    font-size: large;
+}
+.edit
+{
+    font-size: x-small;
+}
+
+.edit a:link
+{
+    color: #EE82EE; /* violet */
+}
+
+.edit a:visited
+{
+    color: #EE82EE; /* violet */
+}
+
+
+.up
+{
+    font-size: x-small;
+}
+
+.up a:link
+{
+    color: yellow;
+}
+
+.up a:visited
+{
+    color: yellow;
+}
+
+.down
+{
+    font-size: x-small;
+}
+
+.down a:link
+{
+    color: yellow;
+}
+
+.down a:visited
+{
+    color: yellow;
+}
+
+.remove
+{
+    font-size: x-small;
+}
+
+.remove a:link
+{
+    color: #7FFF00; /* chartreuse */
+}
+
+.remove a:visited
+{
+    color: #7FFF00; /* chartreuse */
+}
+
+.delete_component_warning
+{
+    font-size: large;
+    color: red;
+}
+
+.configuration_drop_down
+{
+    text-align: center;
+    font-size: medium;
+}
+
+.component_description
+{
+    text-align: center;
+}
+
+.component_description_box
+{
+    width: 200px;
+    height: 100px;
+    border-style:outset;
+    border-width:10px;
+    border-color: #0B27FF;
+
+    padding:1px;
+}
+.configuration_class_return_hyperlink
+{
+    text-align: left;
+    font-size: small;
+}
+.configuration_class_return_hyperlink a:visited
+{
+    color: #0000FF; /* class label (visited) */
+}
+.configuration_class_return_hyperlink a:link
+{
+    color: #0000FF; /* class label (unvisited) */
+}
+.configuration_class_return_hyperlink_bold
+{
+    font-weight: bold;
+}
+.colon
+{
+    color: #000000;
+}
+
+.error
+{
+    color: #FF0000;
+    width: 30%;
+    font-weight: bold;
+    border-style:outset;
+    border-width:4px;
+    border-color: #0B27FF;
+    /*background: #000000;*/
+    padding:1px;
+    background: url(images/error_background.gif);
+}
+
+.cart_item
+{
+    color: #FFFFFF; /* item # label */
+    font-weight: bold;
+    font-size: large;
+}
+
+.cart
+{
+    color: #000000; /* cell color */
+    font-weight: bold;
+    border-style:outset;
+    border-width:4px;
+    border-color: #0B27FF;
+    padding:1px;
+    background: url(images/error_background.gif);
+}
+
+.cart td
+{
+    padding: 3px;
+}
+
+.cart_component
+{
+    color: #000000; /* component color in a line */
+}
+
+.cart_price
+{
+    text-align: right;
+    color: #000000;
+}
+
+.cart_assembly_fee
+{
+    color: #AA00AA;
+}
+
+.cart_total
+{
+    color: #AA00AA;
+}
+
+.cart_price_assembly
+{
+    text-align: right;
+}
+
+.cart_price_total
+{
+    color: #00AA00;
+    text-align: right;
+}
+
+.flagged
+{
+    color: #FF0000;
+}
+
+.edit_accounts a:visited
+{
+    color: #000000; /* class label (visited) */
+}
+.edit_accounts a:link
+{
+    color: #000000; /* class label (unvisited) */
+}
+
+.edit_account_table_header
+{
+    color: #00DD00;
+}
