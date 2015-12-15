@@ -1,0 +1,1 @@
+Open Configurator is an open source configuration system.  It allows an administrator to setup classes, families, and components in such a way that a customer can customize a product from the ground up.  It was originally developed with computers in mind, but it is designed to be adaptable to any product which might need configuring (cars, boats, virtually anything).
